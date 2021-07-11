@@ -6,7 +6,7 @@ RUN  curl -sSL https://get.docker.com/ | sh && \
   curl -sSL https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 > get_helm.sh && \
   chmod 700 get_helm.sh && \
   ./get_helm.sh && \
-  helm plugin install https://github.com/f3lan/helm-diff && \
+  helm plugin install https://github.com/databus23/helm-diff && \
   rm -f get_helm.sh && \
   curl -sSL https://github.com/roboll/helmfile/releases/download/v0.135.0/helmfile_linux_amd64 > helmfile && \
   chmod +x helmfile && \
