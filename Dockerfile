@@ -16,5 +16,4 @@ RUN  curl -sSL https://get.docker.com/ | sh && \
   mv kubectl /usr/local/bin/kubectl && \
   rm -rf /var/lib/apt/lists/*
 
-USER jenkins
 WORKDIR /home/jenkins
